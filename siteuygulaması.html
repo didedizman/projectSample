@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bileşim Eğitimleri </title>
+<meta name="Description" content="Ücretsiz eğitimlerimize kaydolun."/>
+<meta name="Keywords" content="Bileşim, eğitim, yazılım, tasarım"/>
+<link rel="shortcut icon" href="image/fav.png"/>
+<link href="css/siteuygulamasi.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/8564efa6a9.js" crossorigin="anonymous"></script><!-- sosyal medya ıkonlarını kullanmak ıcın bu etıketı eklıyoruz-->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- js -->
+<script type="text/javascript">
+$(function() {
+	$('#basic a').bind('click',function(event){
+ 
+		var link = $(this);
+ 
+ 
+		$('html, body').stop().animate({
+			scrollTop: $(link.attr('href')).offset().top
+		}, 2000);
+ 
+		event.preventDefault();
+ 
+	});
+});</script>
+<!--#js -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".mobilicon").click(function () {
+            $(".mobilicon").toggleClass("mobile");
+            $("ul").finish().slideToggle(500);
+        });
+    });
+</script>
+<!-- js -->
+
+</head>
+
+<body>
+<header class="header-1">
+	<div class="logo"><img src="image/bilisimegitimlogom1.jpg" width="215" height="49" alt=""/></div>
+	<nav class="nav-1">
+		<ul id="basic">
+			<li><a href="#anasayfa">ANASAYFA</a></li>
+			<li><a href="#hakkimizda">HAKKIMIZDA</a></li>
+			<li><a href="#egitimler">EĞİTİMLER</a></li>
+			<li><a href="#video">VİDEOLAR</a></li>
+			<li><a href="#iletisim">İLETİŞİM</a></li>
+		</ul>
+	  <div class="mobilicon">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  </div>
+	  
+    </nav>
+	<nav class="nav-2">
+		<ul id="social">
+		  <li><i class="fab fa-facebook-f color"></i></li>
+		  <li><i class="fab fa-twitter color"></i></li>
+		  <li><i class="fab fa-youtube color"></i></li>
+		</ul>
+	</nav>
+</header>
+<section class="banner" id="anasayfa">
+<div class="text-b">
+	<h2> ÜCRETSİZ BİLEŞİM KURSLARI</h2>
+	<ul type="circle">
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiisLorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiisLorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiisLorem ipsum dolor sit amet, consectetur adipisicing elit. Error, officiis!</li><br>
+	</ul>
+</div>
+<img src="image/telefon.png" class="imgresp" width="410" height="536" alt=""/> 
+<img src="image/screen.jpg" class="imgresp-2" width="178" height="321" alt=""/> </section>
+<section class="art" id="hakkimizda">
+	<aside class="left">
+		<img src="image/iPhone6_Silver.png"  width="200" height="400" class="imgresp-3" alt=""/>
+	</aside>
+	<aside class="right">
+		<h2>BİZ KİMİZ</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsa adipisci ad quisquam alias animi, recusandae accusantium temporibus tenetur esse assumenda iste optio sed commodi autem labore. Incidunt, asperiores, cum!
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsa adipisci ad quisquam alias animi, recusandae accusantium temporibus tenetur esse assumenda iste optio sed commodi autem labore. Incidunt, asperiores, cum!
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsa adipisci ad quisquam alias animi, recusandae accusantium temporibus tenetur esse assumenda iste optio sed commodi autem labore. Incidunt, asperiores, cum!
+			</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsa adipisci ad quisquam alias animi, recusandae accusantium temporibus tenetur esse assumenda iste optio sed commodi autem labore. Incidunt, asperiores, cum!
+			</p>
+	</aside>
+</section>
+<section class="content-1" id="egitimler">
+<h2> EĞİTİMLERİMİZ</h2>
+  <div class="cont">
+    <div class="cont-1">JAVA EGITIMI</div>
+  </div>
+  <div class="cont">
+    <div class="cont-1">HTML VE CSS</div>
+  </div>
+  <div class="cont">
+    <div class="cont-1">DİJİTAL PAZARLAMA</div>
+  </div>
+  <div class="cont">
+    <div class="cont-1">VERITABANI EGITIMI</div>
+  </div>
+  <div class="cont">
+    <div class="cont-1">UNIX ISLETIM SISTEMLERİ</div>
+  </div>
+  <div class="cont">
+    <div class="cont-1">Content for  class "cont-1" Goes Here</div>
+  </div>
+</section>
+<div class="btn">TÜMÜNÜ GÖR</div>
+<section class="video" id="video">
+ <h2> VİDEOLAR</h2>
+  <div class="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/nLCveeY8CAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="btn">TÜMÜNÜ GÖR</div>
+  
+</section>
+<section class="contact" id="iletisim">
+	<h2>EĞİTİM ALMAK İSTER MİSİNİZ?</h2>
+	<input type="text" class="box" placeholder="Adınız Soyadınız">
+	<input type="text" class="box" placeholder="E-mail">
+	<input type="text" class="box" placeholder="Telefon">
+  <div class="btn">SEND</div>
+</section>
+<footer class="bot">&copy;TÜM HAKLARI SAKLIDIR. KOPYALANMAZ</footer>
+
+</body>
+</html>
